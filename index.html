@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrep icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>My Portfolio | Teguh Setiadi</title>
   </head>
@@ -91,34 +93,32 @@
     <!-- About -->
     <section id="about">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4" data-aos="fade-up">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in">
             <p>
               Currently immersed in the world of web development, I bring a unique perspective shaped by my background as a warehouse staff. My journey into the realm of coding started from a curiosity to understand the digital landscape.
               Working in the warehouse has instilled in me the values of efficiency and organization, which I carry into my coding projects.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in">
             <p>
               I am committed to continuous growth, both in my role as a warehouse staff and as a web developer. I believe in the power of learning and adapting, and this principle has been my guiding force. In the dynamic field of web
               development, I find parallels with the need for systematic management in the warehouse.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in">
             <p>
               Beyond the lines of code, I strive to integrate the principles of logistics and precision into my development work. My goal is to not only create functional and visually appealing websites but also to optimize processes and
               enhance user experiences. Outside of coding, you'll find me optimizing warehouse workflows and seeking new opportunities to evolve in both worlds.
             </p>
           </div>
-          <div class="col-md-4">
-            <p>Let's connect and explore how my unique blend of warehouse management and web development skills can contribute to meaningful projects.
-
-            </p>
+          <div class="col-md-4" data-aos="zoom-in">
+            <p>Let's connect and explore how my unique blend of warehouse management and web development skills can contribute to meaningful projects.</p>
           </div>
         </div>
       </div>
@@ -134,14 +134,14 @@
     <!-- Projects -->
     <section id="projects">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4" data-aos="fade-up">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="800">
               <img src="projects/1.jpg" class="card-img-top" alt="Projects 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1100">
               <img src="projects/2.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -157,7 +157,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1400">
               <img src="projects/3.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -165,7 +165,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1700">
               <img src="projects/4.jpg" class="card-img-top" alt="Projects 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -173,7 +173,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
               <img src="projects/5.jpg" class="card-img-top" alt="Projects 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -196,7 +196,7 @@
     <section id="contact">
       <div class="container">
         <div class="col">
-          <div class="row text-center mb-4">
+          <div class="row text-center mb-4" data-aos="fade-up">
             <h2>Contact Me</h2>
           </div>
         </div>
@@ -246,6 +246,12 @@
     <!-- footer akhir -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbwa4OD3Gc-oKLqKXpGNJUG7H5_Qldc-9nQluuF5wnX6mFdR6VrLChDkQ7srAHlh4xE/exec";
